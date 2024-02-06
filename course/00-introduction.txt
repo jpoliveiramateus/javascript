@@ -1,0 +1,25 @@
+O que é JavaScript e para que é utilizado:
+
+-  JavaScript possui bibliotecas, frameworks e ambientes runtime, que permitem o seu uso para muitas coisas.
+
+Variáveis:
+
+- As variáveis armazenam dados que podem ser definidos, atualizados e recuperados sempre que necessário.
+Os valores atribuídos a uma variável têm um tipo
+
+
+Tipos primitivos:
+
+number	    Valores numéricos
+string	    Caracteres em forma de texto
+boolean	    true ou false (1 ou 0)
+undefined	Valor indefinido
+null	    Valor inexistente
+
+Operadores de atribuição;
+
+Operadores aritméticos;
+
+Operadores lógicos;
+
+Estruturas condicionais.
