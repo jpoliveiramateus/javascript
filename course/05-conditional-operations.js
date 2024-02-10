@@ -54,3 +54,7 @@ console.log(message);
 
 
 // Show one more example with template literals... temperature (30) and weather
+
+// const temperature = 31;
+
+// console.log(temperature > 30 ? "KONSKA" : "MIGUEL");

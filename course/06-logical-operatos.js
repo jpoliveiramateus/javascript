@@ -9,15 +9,22 @@
 
 // Em JavaScript, esse pedido pode ser interpretado da seguinte maneira:
 
-const food = 'pão';
-const drink = 'café';
+const food = 'x-tudo';
+const drink = 'leite';
 
-if (drink === 'café' && food === 'pão') {
+if (drink === 'café' || food === 'pão') {
   console.log('Obrigado!');
 } else {
   console.log('Erraram meu pedido.');
 }
 
+// Diferença entre == e ===
+
+// const num1 = '10'; // string
+// const num2 = 10; // number
+
+// console.log(num1 == num2);
+// console.log(num1 === num2);
 
 // Precedência de operadores
 
@@ -25,7 +32,7 @@ if (drink === 'café' && food === 'pão') {
 // Operadores com maior precedência tornam-se operandos de operadores com menor precedência, ou seja,
 // o operador de menor precedência trabalhará com o resultado do operador de maior precedência. Observe o código a seguir:
 
-console.log(10 + 5 * 5); // 10 + 25
+console.log(10 + 5 * 5);
 
 // Nesse código, primeiro é realizada a multiplicação 5 * 5, cujo resultado é 25. Depois, é realizada a soma do resultado dessa multiplicação com 10, ou seja, 25 + 10.
 
@@ -53,4 +60,4 @@ if (principalDrink === 'café' || alternativeDrink === 'suco de laranja') {
 // Operador NOT
 // Vamos ver um exemplo do que o operador NOT (ou !, no JavaScript) faz. Você consegue prever o que esse código vai imprimir?
 
-console.log((2 + 2) === 4);
+console.log(!(2 + 2) === 4);

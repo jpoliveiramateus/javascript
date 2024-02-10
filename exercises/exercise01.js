@@ -7,4 +7,7 @@ const myName = "Vinicius";
 const birthCity = "Auriflama";
 const birthYear = 2002;
 
-console.log(`Meu nome é ${myName}, sou de ${birthCity} e nasci em ${birthYear}.`);
+// console.log(myName + " " + birthCity + " " + birthYear);
+
+// template literals
+console.log(`Meu nome é ${myName}, sou de ${birthCity} e nasci em ${birthYear}`);
